@@ -1,0 +1,3 @@
+A, B, C, D = input().split()
+difference = int(A) * int(B) - int(C) * int(D)
+print("DIFERENCA = ", difference)
