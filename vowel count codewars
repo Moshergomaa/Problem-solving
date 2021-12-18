@@ -1,0 +1,6 @@
+def get_count(inputs):
+    c=0
+    for i in inputs:
+        if i in 'aeoui':
+            c+=1
+    return c
