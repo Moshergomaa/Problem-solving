@@ -1,0 +1,12 @@
+import numpy as np 
+
+def distance(vector1:np.array,vector2:np.array):
+    '''Parameteres are usually 2D or 3D np.arrays '''
+    
+    square = np.square(vector1-vector2)
+
+    sum_of_squares = np.sum(square)
+    
+    return np.sqrt(sum_of_squares)
+
+print(distance())
