@@ -1,0 +1,4 @@
+inputt = input().upper()
+if (len(inputt) <= 200):
+    final_inputt = inputt.replace("WUB"," ")
+    print(final_inputt)
