@@ -1,0 +1,5 @@
+spent_time_in_hours = int(input())
+average_speed_in_km = int(input())
+distance =  spent_time_in_hours * average_speed_in_km
+fuel_needed = distance / 12
+print("%.3f" %fuel_needed)
