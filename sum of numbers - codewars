@@ -1,0 +1,12 @@
+
+def get_sum(a,b):
+    lst = []
+    if a>b:
+        a,b=b,a
+    i = a  # counter
+    while i <= b:
+       lst.append(i)
+       i += 1
+       print(lst)
+    s=sum(lst)
+    return s
