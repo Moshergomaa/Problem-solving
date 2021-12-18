@@ -1,0 +1,9 @@
+a, b, c, d = input().split()
+if b > c:
+   if d > a:
+       if c+d > a+b:
+           if int(c) and int(d) > 0:
+                   if int(a) % 2 == 0:
+                       print ("Valores aceitos")
+else:
+   print("Valores nao aceitos")
