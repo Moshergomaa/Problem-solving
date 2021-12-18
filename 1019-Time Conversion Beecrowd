@@ -1,0 +1,5 @@
+N = int(input())
+minutes = N // 60
+seconds = N % 60
+hours = minutes // 60
+print (hours,":",minutes,":",seconds)
