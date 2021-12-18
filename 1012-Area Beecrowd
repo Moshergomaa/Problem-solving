@@ -1,0 +1,13 @@
+A, B, C = input().split()
+
+area_of_triangle = 0.5 * float(A) * float(C)
+are_of_circle = 3.14159 * float(C) **2
+area_of_trapezium = 0.5 * (float(A) + float(B) ) * float(C)
+area_of_square = float(B) **2
+area_of_rectangle = float(A) * float(B)
+
+print("TRIANGULO: ","%.3f" % area_of_triangle)
+print("CIRCULO: ", "%.3f" % are_of_circle)
+print("TRAPEZIO: ", "%.3f" % area_of_trapezium)
+print("QUADRADO: ","%.3f" % area_of_square)
+print("RETANGULO: ","%.3f" % area_of_rectangle)
